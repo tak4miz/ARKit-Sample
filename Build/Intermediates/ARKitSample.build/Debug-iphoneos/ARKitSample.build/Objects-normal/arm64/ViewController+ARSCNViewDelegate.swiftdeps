@@ -1,0 +1,433 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "11ARKitSample14ViewControllerC"
+provides-member:
+- ["11ARKitSample14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "renderer"
+depends-top-level:
+- "ARAnchor"
+- !private "ARPlaneAnchor"
+- "ARSCNViewDelegate"
+- !private "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "DispatchQueue"
+- !private "PlaneNode"
+- "SCNNode"
+- "SCNSceneRenderer"
+- !private "StringLiteralType"
+- "ViewController"
+- !private "fatalError"
+depends-member:
+- !private ["So8ARAnchorC", "identifier"]
+- !private ["So13ARPlaneAnchorC", "identifier"]
+- !private ["So17ARSCNViewDelegateP", "DispatchQueue"]
+- !private ["So17ARSCNViewDelegateP", "PlaneNode"]
+- !private ["So17ARSCNViewDelegateP", "fatalError"]
+- !private ["So17ARSCNViewDelegateP", "planes"]
+- ["So17ARSCNViewDelegateP", "renderer"]
+- ["So17ARSCNViewDelegateP", "session"]
+- ["So17ARSCNViewDelegateP", "sessionInterruptionEnded"]
+- ["So17ARSCNViewDelegateP", "sessionWasInterrupted"]
+- ["So17ARSCNViewDelegateP", ""]
+- !private ["So17ARSessionDelegateP", "DispatchQueue"]
+- !private ["So17ARSessionDelegateP", "PlaneNode"]
+- !private ["So17ARSessionDelegateP", "fatalError"]
+- !private ["So17ARSessionDelegateP", "planes"]
+- ["So17ARSessionDelegateP", "renderer"]
+- ["So17ARSessionDelegateP", "session"]
+- ["So17ARSessionDelegateP", "sessionInterruptionEnded"]
+- ["So17ARSessionDelegateP", "sessionWasInterrupted"]
+- !private ["So17ARSessionObserverP", "DispatchQueue"]
+- !private ["So17ARSessionObserverP", "PlaneNode"]
+- !private ["So17ARSessionObserverP", "fatalError"]
+- !private ["So17ARSessionObserverP", "planes"]
+- ["So17ARSessionObserverP", "renderer"]
+- ["So17ARSessionObserverP", "session"]
+- ["So17ARSessionObserverP", "sessionInterruptionEnded"]
+- ["So17ARSessionObserverP", "sessionWasInterrupted"]
+- ["So17ARSessionObserverP", ""]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "PlaneNode"]
+- !private ["s7CVarArgP", "addChildNode"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "fatalError"]
+- !private ["s7CVarArgP", "identifier"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "planes"]
+- !private ["s7CVarArgP", "removeValue"]
+- ["s7CVarArgP", "renderer"]
+- ["s7CVarArgP", "session"]
+- ["s7CVarArgP", "sessionInterruptionEnded"]
+- ["s7CVarArgP", "sessionWasInterrupted"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "update"]
+- !private ["s10CollectionP", "removeValue"]
+- !private ["s10CollectionP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "PlaneNode"]
+- !private ["s28CustomDebugStringConvertibleP", "addChildNode"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "fatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "planes"]
+- !private ["s28CustomDebugStringConvertibleP", "removeValue"]
+- ["s28CustomDebugStringConvertibleP", "renderer"]
+- ["s28CustomDebugStringConvertibleP", "session"]
+- ["s28CustomDebugStringConvertibleP", "sessionInterruptionEnded"]
+- ["s28CustomDebugStringConvertibleP", "sessionWasInterrupted"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "update"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "removeValue"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "PlaneNode"]
+- !private ["s23CustomStringConvertibleP", "addChildNode"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "fatalError"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "planes"]
+- !private ["s23CustomStringConvertibleP", "removeValue"]
+- ["s23CustomStringConvertibleP", "renderer"]
+- ["s23CustomStringConvertibleP", "session"]
+- ["s23CustomStringConvertibleP", "sessionInterruptionEnded"]
+- ["s23CustomStringConvertibleP", "sessionWasInterrupted"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "update"]
+- !private ["s9DecodableP", "removeValue"]
+- !private ["s9DecodableP", "subscript"]
+- !private ["s10DictionaryV", "removeValue"]
+- !private ["s10DictionaryV", "subscript"]
+- !private ["So14DispatchObjectC", "async"]
+- !private ["So14DispatchObjectC", "main"]
+- !private ["So13DispatchQueueC", "async"]
+- !private ["So13DispatchQueueC", "main"]
+- !private ["s9EncodableP", "removeValue"]
+- !private ["s9EncodableP", "subscript"]
+- !private ["s9EquatableP", "DispatchQueue"]
+- !private ["s9EquatableP", "PlaneNode"]
+- !private ["s9EquatableP", "addChildNode"]
+- !private ["s9EquatableP", "async"]
+- !private ["s9EquatableP", "fatalError"]
+- !private ["s9EquatableP", "identifier"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "main"]
+- !private ["s9EquatableP", "planes"]
+- ["s9EquatableP", "renderer"]
+- ["s9EquatableP", "session"]
+- ["s9EquatableP", "sessionInterruptionEnded"]
+- ["s9EquatableP", "sessionWasInterrupted"]
+- !private ["s9EquatableP", "update"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "DispatchQueue"]
+- !private ["s8HashableP", "PlaneNode"]
+- !private ["s8HashableP", "addChildNode"]
+- !private ["s8HashableP", "async"]
+- !private ["s8HashableP", "fatalError"]
+- !private ["s8HashableP", "identifier"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "main"]
+- !private ["s8HashableP", "planes"]
+- ["s8HashableP", "renderer"]
+- ["s8HashableP", "session"]
+- ["s8HashableP", "sessionInterruptionEnded"]
+- ["s8HashableP", "sessionWasInterrupted"]
+- !private ["s8HashableP", "update"]
+- !private ["So8NSCodingP", "DispatchQueue"]
+- !private ["So8NSCodingP", "PlaneNode"]
+- !private ["So8NSCodingP", "addChildNode"]
+- !private ["So8NSCodingP", "fatalError"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "planes"]
+- ["So8NSCodingP", "renderer"]
+- ["So8NSCodingP", "session"]
+- ["So8NSCodingP", "sessionInterruptionEnded"]
+- ["So8NSCodingP", "sessionWasInterrupted"]
+- !private ["So8NSCodingP", "update"]
+- !private ["So9NSCopyingP", "addChildNode"]
+- !private ["So9NSCopyingP", "identifier"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "update"]
+- !private ["So26NSExtensionRequestHandlingP", "DispatchQueue"]
+- !private ["So26NSExtensionRequestHandlingP", "PlaneNode"]
+- !private ["So26NSExtensionRequestHandlingP", "fatalError"]
+- !private ["So26NSExtensionRequestHandlingP", "planes"]
+- ["So26NSExtensionRequestHandlingP", "renderer"]
+- ["So26NSExtensionRequestHandlingP", "session"]
+- ["So26NSExtensionRequestHandlingP", "sessionInterruptionEnded"]
+- ["So26NSExtensionRequestHandlingP", "sessionWasInterrupted"]
+- ["So8NSObjectC", "ARAnchor"]
+- !private ["So8NSObjectC", "ARPlaneAnchor"]
+- !private ["So8NSObjectC", "DispatchQueue"]
+- !private ["So8NSObjectC", "PlaneNode"]
+- ["So8NSObjectC", "SCNNode"]
+- ["So8NSObjectC", "SCNSceneRenderer"]
+- !private ["So8NSObjectC", "addChildNode"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "fatalError"]
+- !private ["So8NSObjectC", "identifier"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "planes"]
+- ["So8NSObjectC", "renderer"]
+- ["So8NSObjectC", "session"]
+- ["So8NSObjectC", "sessionInterruptionEnded"]
+- ["So8NSObjectC", "sessionWasInterrupted"]
+- !private ["So8NSObjectC", "update"]
+- !private ["So16NSObjectProtocolP", "DispatchQueue"]
+- !private ["So16NSObjectProtocolP", "PlaneNode"]
+- !private ["So16NSObjectProtocolP", "addChildNode"]
+- !private ["So16NSObjectProtocolP", "async"]
+- !private ["So16NSObjectProtocolP", "fatalError"]
+- !private ["So16NSObjectProtocolP", "identifier"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "main"]
+- !private ["So16NSObjectProtocolP", "planes"]
+- ["So16NSObjectProtocolP", "renderer"]
+- ["So16NSObjectProtocolP", "session"]
+- ["So16NSObjectProtocolP", "sessionInterruptionEnded"]
+- ["So16NSObjectProtocolP", "sessionWasInterrupted"]
+- !private ["So16NSObjectProtocolP", "update"]
+- !private ["So14NSSecureCodingP", "addChildNode"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "update"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "main"]
+- !private ["11ARKitSample9PlaneNodeC", "deinit"]
+- !private ["11ARKitSample9PlaneNodeC", "init"]
+- !private ["11ARKitSample9PlaneNodeC", "update"]
+- !private ["So13SCNActionableP", "addChildNode"]
+- !private ["So13SCNActionableP", "init"]
+- !private ["So13SCNActionableP", "update"]
+- !private ["So13SCNAnimatableP", "addChildNode"]
+- !private ["So13SCNAnimatableP", "init"]
+- !private ["So13SCNAnimatableP", "update"]
+- !private ["So17SCNBoundingVolumeP", "addChildNode"]
+- !private ["So17SCNBoundingVolumeP", "init"]
+- !private ["So17SCNBoundingVolumeP", "update"]
+- !private ["So7SCNNodeC", "addChildNode"]
+- !private ["So7SCNNodeC", "update"]
+- !private ["So24SCNSceneRendererDelegateP", "DispatchQueue"]
+- !private ["So24SCNSceneRendererDelegateP", "PlaneNode"]
+- !private ["So24SCNSceneRendererDelegateP", "fatalError"]
+- !private ["So24SCNSceneRendererDelegateP", "planes"]
+- ["So24SCNSceneRendererDelegateP", "renderer"]
+- ["So24SCNSceneRendererDelegateP", "session"]
+- ["So24SCNSceneRendererDelegateP", "sessionInterruptionEnded"]
+- ["So24SCNSceneRendererDelegateP", "sessionWasInterrupted"]
+- ["So24SCNSceneRendererDelegateP", ""]
+- !private ["s8SequenceP", "removeValue"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s12StaticStringV", "init"]
+- !private ["So21UIAppearanceContainerP", "DispatchQueue"]
+- !private ["So21UIAppearanceContainerP", "PlaneNode"]
+- !private ["So21UIAppearanceContainerP", "fatalError"]
+- !private ["So21UIAppearanceContainerP", "planes"]
+- ["So21UIAppearanceContainerP", "renderer"]
+- ["So21UIAppearanceContainerP", "session"]
+- ["So21UIAppearanceContainerP", "sessionInterruptionEnded"]
+- ["So21UIAppearanceContainerP", "sessionWasInterrupted"]
+- !private ["So18UIContentContainerP", "DispatchQueue"]
+- !private ["So18UIContentContainerP", "PlaneNode"]
+- !private ["So18UIContentContainerP", "fatalError"]
+- !private ["So18UIContentContainerP", "planes"]
+- ["So18UIContentContainerP", "renderer"]
+- ["So18UIContentContainerP", "session"]
+- ["So18UIContentContainerP", "sessionInterruptionEnded"]
+- ["So18UIContentContainerP", "sessionWasInterrupted"]
+- !private ["So18UIFocusEnvironmentP", "DispatchQueue"]
+- !private ["So18UIFocusEnvironmentP", "PlaneNode"]
+- !private ["So18UIFocusEnvironmentP", "addChildNode"]
+- !private ["So18UIFocusEnvironmentP", "fatalError"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "planes"]
+- ["So18UIFocusEnvironmentP", "renderer"]
+- ["So18UIFocusEnvironmentP", "session"]
+- ["So18UIFocusEnvironmentP", "sessionInterruptionEnded"]
+- ["So18UIFocusEnvironmentP", "sessionWasInterrupted"]
+- !private ["So18UIFocusEnvironmentP", "update"]
+- !private ["So11UIFocusItemP", "addChildNode"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "update"]
+- !private ["So30UIPasteConfigurationSupportingP", "DispatchQueue"]
+- !private ["So30UIPasteConfigurationSupportingP", "PlaneNode"]
+- !private ["So30UIPasteConfigurationSupportingP", "fatalError"]
+- !private ["So30UIPasteConfigurationSupportingP", "planes"]
+- ["So30UIPasteConfigurationSupportingP", "renderer"]
+- ["So30UIPasteConfigurationSupportingP", "session"]
+- ["So30UIPasteConfigurationSupportingP", "sessionInterruptionEnded"]
+- ["So30UIPasteConfigurationSupportingP", "sessionWasInterrupted"]
+- ["So11UIResponderC", "ARAnchor"]
+- !private ["So11UIResponderC", "ARPlaneAnchor"]
+- !private ["So11UIResponderC", "DispatchQueue"]
+- !private ["So11UIResponderC", "PlaneNode"]
+- ["So11UIResponderC", "SCNNode"]
+- ["So11UIResponderC", "SCNSceneRenderer"]
+- !private ["So11UIResponderC", "fatalError"]
+- !private ["So11UIResponderC", "planes"]
+- ["So11UIResponderC", "renderer"]
+- ["So11UIResponderC", "session"]
+- ["So11UIResponderC", "sessionInterruptionEnded"]
+- ["So11UIResponderC", "sessionWasInterrupted"]
+- !private ["So30UIResponderStandardEditActionsP", "DispatchQueue"]
+- !private ["So30UIResponderStandardEditActionsP", "PlaneNode"]
+- !private ["So30UIResponderStandardEditActionsP", "fatalError"]
+- !private ["So30UIResponderStandardEditActionsP", "planes"]
+- ["So30UIResponderStandardEditActionsP", "renderer"]
+- ["So30UIResponderStandardEditActionsP", "session"]
+- ["So30UIResponderStandardEditActionsP", "sessionInterruptionEnded"]
+- ["So30UIResponderStandardEditActionsP", "sessionWasInterrupted"]
+- !private ["So16UIStateRestoringP", "DispatchQueue"]
+- !private ["So16UIStateRestoringP", "PlaneNode"]
+- !private ["So16UIStateRestoringP", "fatalError"]
+- !private ["So16UIStateRestoringP", "planes"]
+- ["So16UIStateRestoringP", "renderer"]
+- ["So16UIStateRestoringP", "session"]
+- ["So16UIStateRestoringP", "sessionInterruptionEnded"]
+- ["So16UIStateRestoringP", "sessionWasInterrupted"]
+- !private ["So18UITraitEnvironmentP", "DispatchQueue"]
+- !private ["So18UITraitEnvironmentP", "PlaneNode"]
+- !private ["So18UITraitEnvironmentP", "fatalError"]
+- !private ["So18UITraitEnvironmentP", "planes"]
+- ["So18UITraitEnvironmentP", "renderer"]
+- ["So18UITraitEnvironmentP", "session"]
+- ["So18UITraitEnvironmentP", "sessionInterruptionEnded"]
+- ["So18UITraitEnvironmentP", "sessionWasInterrupted"]
+- ["So16UIViewControllerC", "ARAnchor"]
+- !private ["So16UIViewControllerC", "ARPlaneAnchor"]
+- !private ["So16UIViewControllerC", "DispatchQueue"]
+- !private ["So16UIViewControllerC", "PlaneNode"]
+- ["So16UIViewControllerC", "SCNNode"]
+- ["So16UIViewControllerC", "SCNSceneRenderer"]
+- !private ["So16UIViewControllerC", "fatalError"]
+- !private ["So16UIViewControllerC", "planes"]
+- ["So16UIViewControllerC", "renderer"]
+- ["So16UIViewControllerC", "session"]
+- ["So16UIViewControllerC", "sessionInterruptionEnded"]
+- ["So16UIViewControllerC", "sessionWasInterrupted"]
+- ["11ARKitSample14ViewControllerC", "ARAnchor"]
+- !private ["11ARKitSample14ViewControllerC", "ARPlaneAnchor"]
+- !private ["11ARKitSample14ViewControllerC", "DispatchQueue"]
+- !private ["11ARKitSample14ViewControllerC", "PlaneNode"]
+- ["11ARKitSample14ViewControllerC", "SCNNode"]
+- ["11ARKitSample14ViewControllerC", "SCNSceneRenderer"]
+- ["11ARKitSample14ViewControllerC", "deinit"]
+- !private ["11ARKitSample14ViewControllerC", "fatalError"]
+- !private ["11ARKitSample14ViewControllerC", "planes"]
+- ["11ARKitSample14ViewControllerC", "renderer"]
+- ["11ARKitSample14ViewControllerC", "session"]
+- ["11ARKitSample14ViewControllerC", "sessionInterruptionEnded"]
+- ["11ARKitSample14ViewControllerC", "sessionWasInterrupted"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s10_IndexableP", "removeValue"]
+- !private ["s10_IndexableP", "subscript"]
+- !private ["s14_IndexableBaseP", "removeValue"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "PlaneNode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addChildNode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "planes"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "renderer"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "session"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sessionInterruptionEnded"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "sessionWasInterrupted"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "update"]
+- !private ["s21_ObjectiveCBridgeableP", "removeValue"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "So8ARAnchorC"
+- !private "So13ARPlaneAnchorC"
+- "So17ARSCNViewDelegateP"
+- "So17ARSessionDelegateP"
+- "So17ARSessionObserverP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s10DictionaryV"
+- !private "So14DispatchObjectC"
+- !private "So13DispatchQueueC"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So9OS_objectC"
+- !private "11ARKitSample9PlaneNodeC"
+- !private "So13SCNActionableP"
+- !private "So13SCNAnimatableP"
+- !private "So17SCNBoundingVolumeP"
+- !private "So7SCNNodeC"
+- "So24SCNSceneRendererDelegateP"
+- !private "s8SequenceP"
+- !private "s12StaticStringV"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So16UIViewControllerC"
+- "11ARKitSample14ViewControllerC"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ModelIO.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreAudio.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ARKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "0d9889ef359df22b892cd3ca584e284d"

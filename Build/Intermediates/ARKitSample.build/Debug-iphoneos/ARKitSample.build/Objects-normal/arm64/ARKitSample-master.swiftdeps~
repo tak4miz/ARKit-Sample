@@ -1,0 +1,11 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "0cca316d36a2ae492c88b38425097ef8"
+build_time: [1515324910, 323458000]
+inputs:
+  "/Users/Yabecchi/Project/ARKitSample/ARKitSample/Controllers/ViewController+ARSCNViewDelegate.swift": [1515205202, 0]
+  "/Users/Yabecchi/Project/ARKitSample/ARKitSample/Controllers/PictureNode.swift": [1515324893, 0]
+  "/Users/Yabecchi/Project/ARKitSample/ARKitSample/Controllers/ViewController.swift": [1515319316, 0]
+  "/Users/Yabecchi/Project/ARKitSample/ARKitSample/Controllers/ViewController+ARSessionDelegate.swift": [1515199290, 0]
+  "/Users/Yabecchi/Project/ARKitSample/ARKitSample/Extensions/ARSession+Extension.swift": [1515316284, 0]
+  "/Users/Yabecchi/Project/ARKitSample/ARKitSample/Controllers/PlaneNode.swift": [1515320103, 0]
+  "/Users/Yabecchi/Project/ARKitSample/ARKitSample/AppDelegate.swift": [1513001441, 0]
