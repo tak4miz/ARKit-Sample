@@ -84,16 +84,9 @@ extension ViewController {
             return
         }
         
-        let pitch = sceneView.session.currentFrame?.camera.eulerAngles.x
-        let yawn = sceneView.session.currentFrame?.camera.eulerAngles.y
-        let roll = sceneView.session.currentFrame?.camera.eulerAngles.z
-        
-        let orientation = SCNVector3Make(pitch!, yawn!, roll!)
-        
         picture = PictureNode(fileName: "sample",
                               width: sceneView.bounds.width / 6000,
-                              height: sceneView.bounds.height / 6000,
-                              orientation: orientation)
+                              height: sceneView.bounds.height / 6000)
         
         sceneView.scene.rootNode.addChildNode(picture)
         

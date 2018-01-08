@@ -15,15 +15,15 @@ class PictureNode: SCNNode {
         super.init()
     }
     
-    init(fileName: String, width: CGFloat, height: CGFloat, orientation: SCNVector3){
+    init(fileName: String, width: CGFloat, height: CGFloat){
         super.init()
 
+        let transform = SCNMatrix4Mult(SCNMatrix4MakeTranslation(0, -1, 0),
+                                       SCNMatrix4MakeRotation(Float.pi / 2, 0, 0, 1))
+        
         let imagePlane = SCNPlane(width: width, height: height)
         imagePlane.firstMaterial?.diffuse.contents = UIImage(named: fileName)
         imagePlane.firstMaterial?.isDoubleSided = true
-        
-        let transform = SCNMatrix4Mult(SCNMatrix4MakeTranslation(0, -1, 0),
-                                       SCNMatrix4MakeRotation(Float.pi / 2, 0, 0, 1))
         //rotating on the upper left corner
         imagePlane.firstMaterial?.diffuse.contentsTransform = transform
         
